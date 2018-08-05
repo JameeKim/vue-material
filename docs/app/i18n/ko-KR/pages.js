@@ -1,76 +1,76 @@
 export default {
   home: {
-    title: 'Home',
-    slogan: 'Build beautiful apps with Material Design and Vue.js',
-    material: 'Material Design',
-    materialContent: 'Simple, lightweight and built exactly according to the Google Material Design specs.',
-    compatible: 'Compatible',
-    compatibleContent: 'Build well-designed apps that can fit on every screen with support for all modern Web Browsers.',
-    featured: 'Full-featured',
-    featuredContent: 'Complete with dynamic themes, on-demand components and all with an easy-to-use API.',
-    ecosystem: 'Ecosystem',
-    viewProject: 'View project',
-    sponsors: 'Sponsors',
-    backers: 'Backers',
-    sponsorsDescription: 'Vue Material does not run under the umbrella of any company or anything like that. It is an independent project created by {0} in his spare time, which has become one of the most used UI Libraries for Vue.js. The development is active and we are working hard to release great things for you.',
-    beAPatron: 'If you think that this project helped you or your company in any way, you can consider becoming a backer/sponsor on Patreon'
+    title: '홈 페이지',
+    slogan: '머티리얼 디자인과 Vue.js를 이용하여 멋진 앱을 개발하세요',
+    material: '머티리얼 디자인',
+    materialContent: '간단하고 가벼우면서 구글의 머티리얼 디자인 스펙을 정확하게 따릅니다.',
+    compatible: '호환성',
+    compatibleContent: '모든 화면에 맞고 모든 최신 웹 브라우저를 지원하는 앱을 개발하세요.',
+    featured: '풍부한 기능',
+    featuredContent: '사용하기 쉬운 API로 다이나믹 테마와 필요한 컴포넌트 등 모든 것을 활용하세요.',
+    ecosystem: '에코시스템',
+    viewProject: '프로젝트 보기',
+    sponsors: '후원기업',
+    backers: '후원자',
+    sponsorsDescription: 'Vue Material은 어떠한 기업과도 연관되어 있지 않습니다. {0}가 개인적으로 만든 독립적인 프로젝트이고, 이제는 Vue.js에 가장 많이 사용되는 UI 라이브러리 중 하나가 되었습니다. 지금도 많은 사람들이 당신에게 좋은 기능을 지원할 수 있도록 활발히 개발하는 중입니다.',
+    beAPatron: '이 프로젝트가 당신 혹은 당신의 기업에게 도움이 되었다면, Patreon을 통해 후원해주시는 것은 어떨까요?'
   },
   about: {
-    title: 'About'
+    title: '프로젝스 설명'
   },
   license: {
-    title: 'License'
+    title: '라이선스'
   },
   gettingStarted: {
-    title: 'Getting Started',
-    introduction: 'Vue Material is the best integration between Vue.js and Material Design specs! You can easily configure it to suit all your needs. All you have to do is choose an installation method that suits your environment and follow it\'s instructions. Let\'s start!',
-    installation: 'Installation',
-    npmOrYarn: 'NPM or Yarn'
+    title: '시작하기',
+    introduction: 'Vue Material은 Vue.js와 Material Design 스펙을 통합하기 위한 가장 좋은 방법입니다! 당신의 필요에 맞게 쉽게 설정할 수 있습니다. All you have to do is choose an installation method that suits your environment and follow it\'s instructions. 그럼 시작합시다!',
+    installation: '설치하기',
+    npmOrYarn: 'NPM 혹은 Yarn'
   },
   configuration: {
-    title: 'Configuration',
-    viaVueGlobalObject: 'Via Vue global object',
-    inVueComponents: 'In Vue components',
-    options: 'Options',
+    title: '설정하기',
+    viaVueGlobalObject: 'Vue 전역객체를 이용',
+    inVueComponents: 'Vue 컴포넌트 내에서',
+    options: '설정 옵션',
   },
   themes: {
-    title: 'Themes'
+    title: '테마'
   },
   themeConcepts: {
-    title: 'Themes - Concepts',
-    nav: 'Concepts'
+    title: '테마 - 테마란?',
+    nav: '테마란?'
   },
   themePrebuilt: {
-    title: 'Themes - Prebuilt',
-    nav: 'Prebuilt'
+    title: '테마 - 기본 빌드',
+    nav: '기본 빌드'
   },
   themeConfiguration: {
-    title: 'Themes - Configuration',
-    nav: 'Configuration'
+    title: '테마 - 설정하기',
+    nav: '설정하기'
   },
   themeAdvanced: {
-    title: 'Themes - Advanced',
-    nav: 'Advanced'
+    title: '테마 - 고급 설정',
+    nav: '고급 설정'
   },
   withRouter: {
-    title: 'Work with Vue Router'
+    title: 'Vue Router와 함께 사용하기'
   },
   components: {
-    title: 'Components',
+    title: '컴포넌트',
   },
   uiElements: {
-    title: 'UI Elements',
+    title: 'UI 엘리먼트',
   },
   elevation: {
-    title: 'Elevation',
-    description: 'Measured from the front of one surface to the front of another, an element’s elevation indicates the distance between surfaces and the depth of its shadow.'
+    title: '높이 (Elevation)',
+    description: '엘리먼트의 높이는 여러 표면 사이의 거리와 엘리먼트의 그림자의 깊이를 나타냅니다. 한 표면에서 다른 표면까지의 차이로 계산됩니다.'
   },
   button: {
-    title: 'Button',
-    description: 'Buttons communicate the action that will occur when the user touches them.'
+    title: '버튼',
+    description: '버튼은 사용자가 터치했을 때 실행될 기능을 표시합니다.'
   },
   app: {
-    title: 'App',
+    title: '앱',
     intro: {
       desc1: 'The following patterns apply the elevations in which content should scroll, how to size flexible space, and when to anchor specific elements.',
       desc2: 'When building applications there are some repeated behaviours regarding the structure of the app. Responsive drawers, flexible toolbars, scrolling... Any of these could repeat across complex applications. This documentation website, for example, needs some of them; and maybe you\'ll need them too. To solve those problems the {0} was created.',
